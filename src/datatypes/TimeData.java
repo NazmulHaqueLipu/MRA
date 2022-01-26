@@ -23,4 +23,8 @@ public class TimeData {
 	public String getYear()  {
 		return year;
 	}
+	@Override
+	public String toString() {
+		return "TimeData [day=" + day + ", month=" + month + ", year=" + year + "]";
+	}
 }
